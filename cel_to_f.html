@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Celcius to Fahrenheit Coverter</h1>
+
+<input type="number" id="cel">
+
+<p>Enter celcius value in the given space.</p>
+
+<button onclick="Convert()">Get Fahrenheit Value</button>
+
+<p id="Fahrenheit"></p>
+
+<script>
+function Convert() {
+  var x = document.getElementById("cel").value;
+  document.getElementById("Fahrenheit").innerHTML = (9*(x/5))+32;
+}
+</script>
+<p>Code by: Sooraj Tomar</p>
+</body>
+</html>
